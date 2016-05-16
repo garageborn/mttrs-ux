@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px; }
+
+body, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background: #ff5607;
+  text-align: center; }
+  nav h1 {
+    display: inline-block; }
+  nav h1 a {
+    text-indent: -9999px;
+    background: url(../img/mttrs.png);
+    background-size: 113px 28px;
+    display: block;
+    width: 113px;
+    height: 28px;
+    margin: 11px 0 15px 0;
+    padding: 0; }
+  nav ul {
+    list-style-type: none;
+    padding: 5px 0;
+    border-top: 1px solid #EB4F06; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        display: inline-block;
+        margin: 0 3px;
+        padding: 8px 7px;
+        color: #fff;
+        text-decoration: none; }
+      nav ul li a:before {
+        content: "";
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        vertical-align: middle;
+        margin: 0 5px 2px 0; }
+      nav ul li a:hover {
+        text-decoration: underline; }
+      nav ul li.active {
+        font-weight: bold; }
+
+main {
+  padding: 15px; }
+  main h2 {
+    font-size: 16px;
+    padding-bottom: 15px; }
+    main h2 > span {
+      color: #666;
+      font-weight: normal;
+      margin: 0 2px 0 5px; }
+  main .dropdown {
+    display: inline-block;
+    background: url(../img/arrow.svg) no-repeat right 10px center; }
+    main .dropdown select {
+      width: 120px;
+      background: transparent;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      padding: 10px 10px;
+      font-size: 16px;
+      -webkit-appearance: none;
+      cursor: pointer;
+      text-align: center; }
+      main .dropdown select .caret {
+        margin: 0 10px; }
+  main main {
+    vertical-align: middle; }
+  main .story {
+    display: table;
+    border-top: 1px solid #ccc;
+    padding: 15px 0 10px 0;
+    float: left;
+    width: 100%; }
+    main .story img {
+      width: 100px;
+      height: 75px;
+      margin: 0 20px 0 0; }
+    main .story .story-text {
+      display: table-cell;
+      width: 100%;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0; }
+    main .story h3 {
+      font-weight: normal;
+      font-size: 16px;
+      margin: -8px 0 5px 0;
+      padding: 0; }
+    main .story p {
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+      color: #aaa;
+      font-weight: bold; }
+      main .story p span {
+        font-weight: normal; }
+
+@media (min-width: 850px) {
+  nav .container, main {
+    max-width: 1000px;
+    margin: 0 auto; }
+
+  nav {
+    text-align: left;
+    padding: 0 11px 0 20px; }
+    nav ul {
+      border: none;
+      float: right;
+      padding: 8px 0 0 0; }
+
+  main .story img {
+    width: 130px;
+    height: 98px; }
+  main .story h3 {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=mttrs.css.map */
